@@ -82,3 +82,9 @@ light.addEventListener("click", function(){
     main_container_photo.appendChild(img_cont);
 })
 
+let loader = document.querySelector(".loader_box");
+window.addEventListener("load", function()
+{
+    loader.style.display = "none";
+})
+
