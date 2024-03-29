@@ -58,9 +58,13 @@ body, html{
         transform: scale(.1);
     }
 }
-.nothings{
+
+/* Main  */
+
+.main{
     display: none;
 }
+
 
 img{
     width: 100%;
