@@ -59,6 +59,28 @@ body, html{
     }
 }
 
+/* Animation for Photo  */
+.main_container_photo{
+    animation:moving 5s infinite linear;
+}
+@keyframes moving {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(1rem);
+    }
+    50%{
+        transform: translateY(0rem);
+    }
+    75%{
+        transform: translateY(-1rem);
+    }
+    100%{
+        transform: translateY(0rem);
+    }
+}
+
 /* Main  */
 
 .main{
